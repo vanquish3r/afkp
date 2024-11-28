@@ -24,7 +24,7 @@ let ytplayerdisabled = true;
 		videoplayer.setAttribute("rotation", "0 0 0");
 		videoplayer.setAttribute("position", "0 -50 0");
 		videoplayer.setAttribute("hand-controls", "false");
-		videoplayer.setAttribute("button-position", "0 -50 0");
+		videoplayer.setAttribute("button-position", "0 -50.5 0");
 		videoplayer.setAttribute("volume", "2");
 		videoplayer.setAttribute("button-rotation", "0 0 0");
 		videoplayer.setAttribute("button-scale", "0.5 0.5 0.5");
