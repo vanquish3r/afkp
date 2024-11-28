@@ -32,6 +32,7 @@ let ytplayerdisabled = true;
 		videoplayer.setAttribute("spatial-max-distance", "1000");
 		videoplayer.setAttribute("playlist", youtubePlaylist);
 		videoplayer.setAttribute("announce", "false");
+		videoplayer.setAttribute("resolution", "256");
 		// videoplayer.setAttribute("announce-four-twenty", "false");
 		videoplayer.setAttribute("data-playlist-icon-url", "https://cdn.glitch.global/cedb7f93-2ff8-496d-a164-76f83f5d489a/_.png?v=1714666440498");
 		videoplayer.setAttribute("data-vol-up-icon-url", "https://cdn.glitch.global/cedb7f93-2ff8-496d-a164-76f83f5d489a/%2B.png?v=1714666442133");
