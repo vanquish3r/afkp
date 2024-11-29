@@ -51,7 +51,7 @@ function enableTheFireScreen() {
 	console.log("Adding Screen Cast");
 	const firescreen = document.createElement("script");
 	firescreen.id = "-firescreen";
-	firescreen.setAttribute("scale", "2.9 2.9 2.9");
+	firescreen.setAttribute("scale", "2.8 2.8 2.8");
 	firescreen.setAttribute("rotation", "0 -90 0");
 	firescreen.setAttribute("position", "-63.245 -6.48 7.01");
 	firescreen.setAttribute("mipmaps", "0");
