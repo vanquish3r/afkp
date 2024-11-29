@@ -85,9 +85,9 @@ function enableThePortableFireScreen() {
 	console.log("Adding Fire Tablet");
 	const firescreen = document.createElement("script");
 	firescreen.id = "-portable-firescreen";
-	firescreen.setAttribute("scale", "0.6 0.6 0.6");
+	firescreen.setAttribute("scale", "0.7 0.7 0.7");
 	firescreen.setAttribute("rotation", "0 180 0");
-	firescreen.setAttribute("position", "-25.32 -6.8 -9.68");
+	firescreen.setAttribute("position", "-25.32 -6.8 -9.6");
 	firescreen.setAttribute("mipmaps", "0");
 	firescreen.setAttribute("pixelsperunit", "1200");
 	firescreen.setAttribute("width", "1280");
