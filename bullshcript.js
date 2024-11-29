@@ -51,7 +51,7 @@ function enableTheFireScreen() {
 	console.log("Adding Screen Cast");
 	const firescreen = document.createElement("script");
 	firescreen.id = "-firescreen";
-	firescreen.setAttribute("scale", "3 3 3");
+	firescreen.setAttribute("scale", "2.9 2.9 2.9");
 	firescreen.setAttribute("rotation", "0 -90 0");
 	firescreen.setAttribute("position", "-63.245 -6.48 7.01");
 	firescreen.setAttribute("mipmaps", "0");
@@ -87,7 +87,7 @@ function enableThePortableFireScreen() {
 	firescreen.id = "-portable-firescreen";
 	firescreen.setAttribute("scale", "0.6 0.6 0.6");
 	firescreen.setAttribute("rotation", "0 180 0");
-	firescreen.setAttribute("position", "-25.32 -6.8 9.68");
+	firescreen.setAttribute("position", "-25.32 -6.8 -9.68");
 	firescreen.setAttribute("mipmaps", "0");
 	firescreen.setAttribute("pixelsperunit", "1200");
 	firescreen.setAttribute("width", "1280");
