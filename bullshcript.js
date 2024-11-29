@@ -5,11 +5,11 @@ let otherwebsiteurl = "https://firer.at/";
 BS.BanterScene.GetInstance().On("loaded", () => {
 	console.log("Scene loaded");
 	/* COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER */
-		// enableYouTube();
+		 enableYouTube();
 	/* UNCOMMENTED THIS TO ENABLE SCREEN CAST / YOUTUBE LIVE */
-		 enableTheFireScreen();
+		// enableTheFireScreen();
 	/* UNCOMMENTED THIS TO ENABLE FIRE TABLET */
-		 enableThePortableFireScreen()
+		// enableThePortableFireScreen()
 });
 
 // videoplayer toggle by HBR & Fire
