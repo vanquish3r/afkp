@@ -2,7 +2,7 @@ let youtubePlaylist = `PLZWiw-xxQ4SMitiNpd4NILYbTVU_Qa4Lj`;
 let websiteurl = "https://screen.sdq.st:8443/?room=afkp"; /* ?autoplay=1&controls=0 For YouTube Live */
 let otherwebsiteurl = "https://firer.at/";
 
-BS.BanterScene.GetInstance().On("loaded", () => {
+window.addEventListener("bs-loaded", ()=> {
 	console.log("Scene loaded");
 	/* COMMENTED THIS OUT TO REMOVE THE YOUTUBE PLAYER */
 		 enableYouTube();
